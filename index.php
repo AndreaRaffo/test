@@ -47,7 +47,7 @@ include_once 'do_login.php';
 						<div class="containerForm">
       						<input type="text" placeholder="Nome Utente" name="uname" required>
       						<input type="password" placeholder="Password" name="psw" required>
-        			    	<button class="loginBtn" type="submit">Login</button>
+        			    	<button class="loginBtn" type="submit" value="Login">Login</button>
         			    	<br>
      						Sei un nuovo utente?<br>
      						<a href="#">Registrati</a>
