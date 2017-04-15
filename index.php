@@ -15,8 +15,6 @@ include_once 'do_login.php';
 ?>
 
 
-
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -41,7 +39,7 @@ include_once 'do_login.php';
 			
 		<button id="login" onclick="document.getElementById('id01').style.display='block'"><img src="Images/login.png" alt="Login"></button>
 					<div id="id01" class="modal">
-  						<form class="modal-content animate" name="login" action="login.php">
+  						<form class="modal-content animate" name="login" action="index.php">
     					<div class="imgcontainer">
       						<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Chiudi">&times;</span>
       						<img src="Images/avatar.png" alt="Avatar" class="avatar">

@@ -11,7 +11,7 @@ if(isSet($_COOKIE[$cookie_name]))
 setcookie ($cookie_name, '', time() - $cookie_time);
 }
 
-header("Location: login.php");
+header("Location: index.php");
 exit;
 }
 ?>
